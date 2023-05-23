@@ -33,7 +33,7 @@ def applyTemplate(index):
         owner = target
 
     if templateFile != '':
-        path = 'templates/' + templateFile
+        path = f'templates/{templateFile}'
         instance = template.labelsTemplate.build(path)
 
         if instance == '':

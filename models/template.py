@@ -32,9 +32,9 @@ class labelsTemplate:
             label("roadmap", "This issue is a road map", "#4C4CE0"),
         ])
 
-    def build(path):
-        if os.path.exists(path):
-            with open(path, 'r') as file:
+    def build(self):
+        if os.path.exists(self):
+            with open(self, 'r') as file:
                 return labelsTemplate([
                     label(item["name"], item["description"], item["color"])
                     for item in json.load(file)["labels"]
@@ -67,7 +67,7 @@ class labelsTemplate:
         json = '--json name'
         jq = '--jq \".[].name\"'
 
-        process = os.popen('{} {} {} {}'.format(cmd, owner, json, jq))
+        process = os.popen(f'{cmd} {owner} {json} {jq}')
         repos = process.read().splitlines()
         process.close()
 
@@ -99,11 +99,11 @@ class labelsTemplate:
                     # print('x -> {} diffed in {} {} {}'.format(x, ndiff, ddiff, cdiff))
                     actions.append(action('edit', x, self.labels[j]))
 
-        for x in templateLabelsNames:
-            if not currentLabelsNames.__contains__(x):
-                actions.append(
-                    action('create', x, self.labels[templateLabelsNames.index(x)]))
-
+        actions.extend(
+            action('create', x, self.labels[templateLabelsNames.index(x)])
+            for x in templateLabelsNames
+            if not currentLabelsNames.__contains__(x)
+        )
         print(json.dumps(actions, default=lambda o: o.__dict__,
               sort_keys=True, indent=4))
 
