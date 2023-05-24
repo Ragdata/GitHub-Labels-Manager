@@ -1,74 +1,179 @@
 {
     "labels": [
         {
-            "color": "#D73A4A",
+            "color": "#F9D0C4",
+            "description": "A broadcast message for everyone's attention",
+            "name": "announcement"
+        },
+        {
+            "color": "#ff0000",
             "description": "Something isn't working",
-            "name": "bug"
+            "name": "BUG"
         },
         {
-            "color": "#0075CA",
-            "description": "Improvements or additions to documentation",
-            "name": "documentation"
-        },
-        {
-            "color": "#CFD3D7",
-            "description": "This issue or pull request already exists",
-            "name": "duplicate"
-        },
-        {
-            "color": "#A2EEEF",
-            "description": "New feature or request",
-            "name": "enhancement"
-        },
-        {
-            "color": "#74D971",
-            "description": "This problem has been fixed",
-            "name": "fixed"
-        },
-        {
-            "color": "#008672",
-            "description": "Extra attention is needed",
-            "name": "help wanted"
-        },
-        {
-            "color": "#E4E669",
-            "description": "This doesn't seem right",
-            "name": "invalid"
+            "color": "#D4C5F9",
+            "description": "STATUS: CLOSED",
+            "name": "can't replicate"
         },
         {
             "color": "#D93F0B",
-            "description": "Experimental features",
-            "name": "lab"
+            "description": "Work that needs to happen",
+            "name": "chore"
         },
         {
-            "color": "#0922A5",
-            "description": "Pull Request had been merged",
-            "name": "merged"
+            "color": "#B60205",
+            "description": "Priority Critical",
+            "name": "critical"
         },
         {
-            "color": "#D876E3",
-            "description": "Further information is requested",
-            "name": "question"
+            "color": "#cfd3d7",
+            "description": "Discussion Thread",
+            "name": "discussion"
+        },
+        {
+            "color": "#0075ca",
+            "description": "Improvements or additions to documentation",
+            "name": "docs"
+        },
+        {
+            "color": "#0E8A16",
+            "description": "STATUS: DONE",
+            "name": "DONE"
+        },
+        {
+            "color": "#D4C5F9",
+            "description": "STATUS: CLOSED",
+            "name": "duplicate"
+        },
+        {
+            "color": "#D93F0B",
+            "description": "Improvements or additions to features",
+            "name": "enhancement"
+        },
+        {
+            "color": "#7057ff",
+            "description": "Work unit containing sub-tasks",
+            "name": "epic"
+        },
+        {
+            "color": "#00ff00",
+            "description": "New feature or request",
+            "name": "feature"
+        },
+        {
+            "color": "#0052CC",
+            "description": "Good first issue for new contributor",
+            "name": "good first issue"
+        },
+        {
+            "color": "#B60205",
+            "description": "Extra attention is required",
+            "name": "help wanted"
+        },
+        {
+            "color": "#D93F0B",
+            "description": "Priority High",
+            "name": "high"
         },
         {
             "color": "#FEF2C0",
-            "description": "This issue is tracking by another issue",
-            "name": "tracking"
+            "description": "Idea / Suggestion",
+            "name": "idea"
         },
         {
-            "color": "#FFFFFF",
-            "description": "This will not be worked on",
-            "name": "wontfix"
+            "color": "#0E8A16",
+            "description": "Priority Low",
+            "name": "low"
         },
         {
-            "color": "#D4B4D3",
-            "description": "We are working on this issue",
-            "name": "working on"
+            "color": "#FBCA04",
+            "description": "Priority Medium",
+            "name": "medium"
         },
         {
-            "color": "#4C4CE0",
-            "description": "This issue is a road map",
-            "name": "roadmap"
+            "color": "#c5def5",
+            "description": "Priority None",
+            "name": "none"
+        },
+        {
+            "color": "#B772F3",
+            "description": "A Poll",
+            "name": "poll"
+        },
+        {
+            "color": "#E99695",
+            "description": "Q&A Thread",
+            "name": "Q&A"
+        },
+        {
+            "color": "#d876e3",
+            "description": "Support Question",
+            "name": "question"
+        },
+        {
+            "color": "#000000",
+            "description": "Changes to the structure of something",
+            "name": "refactor"
+        },
+        {
+            "color": "#FBCA04",
+            "description": "Feature request or suggestion",
+            "name": "request"
+        },
+        {
+            "color": "#B60205",
+            "description": "Response required by admin",
+            "name": "requires response"
+        },
+        {
+            "color": "#FEF2C0",
+            "description": "Show & Tell",
+            "name": "show & tell"
+        },
+        {
+            "color": "#C2E0C6",
+            "description": "Stale Issue",
+            "name": "stale"
+        },
+        {
+            "color": "#006B75",
+            "description": "Changes to the style of something",
+            "name": "style"
+        },
+        {
+            "color": "#d876e3",
+            "description": "Support Question",
+            "name": "support"
+        },
+        {
+            "color": "#D4C5F9",
+            "description": "STATUS: CLOSED",
+            "name": "won't fix"
+        },
+        {
+            "color": "#0052cc",
+            "description": "Hide template from public",
+            "name": "preview"
+        },
+        {
+            "color": "#FDAF21",
+            "description": "A sponsor is associated with this issue",
+            "name": "VIP"
+        },
+        {
+            "color": "#0052CC",
+            "description": "Website Tasks",
+            "name": "website"
+        },
+        {
+            "color": "#D807C2",
+            "description": "A collection of epics",
+            "name": "SAGA"
+        },
+        {
+            "color": "#5319E7",
+            "description": "New Issue",
+            "name": "NEW"
         }
     ]
 }
