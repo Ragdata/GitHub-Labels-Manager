@@ -1,5 +1,9 @@
 ﻿# About
 
+> This is a fork of the repository at [Paraphory/GitHub-Labels-Manager](https://github.com/Paraphory/GitHub-Labels-Manager) which is slowly but surely being corrupted with stuff that I want it to do.  If you're interested in using this repo, I'd suggest you fork a copy of the original (above).
+> 
+> -- Rags
+
 Labels Manager is a tool to manage GitHub labels. It can be used to create, update, delete, and sync labels across multiple repositories.
 
 # Use
