@@ -206,29 +206,9 @@
             "name": "SPRINT"
         },
         {
-            "color": "#ffffff",
-            "description": "A bot was responsible for raising this issue",
-            "name": "BOT"
-        },
-        {
-            "color": "#ffffff",
-            "description": "A bot was responsible for raising this issue",
+            "color": "#000000",
+            "description": "Issue has been finalised",
             "name": "CLOSED"
-        },
-        {
-            "color": "#6b2296",
-            "description": "Mend: Configuration Error",
-            "name": "MEND: CONFIG"
-        },
-        {
-            "color": "#d1260f",
-            "description": "Mend: Security Fix",
-            "name": "MEND: FIX"
-        },
-        {
-            "color": "#d1260f",
-            "description": "Mend: Security Vulnerability Detected",
-            "name": "MEND: VULNERABILITY"
         }
     ]
 }
