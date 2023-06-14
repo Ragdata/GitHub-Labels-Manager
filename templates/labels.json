@@ -53,7 +53,7 @@
         {
             "color": "#7057ff",
             "description": "Work unit containing sub-tasks",
-            "name": "epic"
+            "name": "EPIC"
         },
         {
             "color": "#00ff00",
@@ -79,6 +79,11 @@
             "color": "#FEF2C0",
             "description": "Idea / Suggestion",
             "name": "idea"
+        },
+        {
+            "color": "#ff0000",
+            "description": "STATUS: CLOSED",
+            "name": "INVALID"
         },
         {
             "color": "#0E8A16",
@@ -116,6 +121,11 @@
             "name": "refactor"
         },
         {
+            "color": "#0E8A16",
+            "description": "Marks Pull Requests which merge a release into the Master branch",
+            "name": "RELEASE"
+        },
+        {
             "color": "#FBCA04",
             "description": "Feature request or suggestion",
             "name": "request"
@@ -124,6 +134,11 @@
             "color": "#B60205",
             "description": "Response required by admin",
             "name": "requires response"
+        },
+        {
+            "color": "#D807C2",
+            "description": "A collection of Epics",
+            "name": "SAGA"
         },
         {
             "color": "#FEF2C0",
@@ -146,16 +161,6 @@
             "name": "support"
         },
         {
-            "color": "#D4C5F9",
-            "description": "STATUS: CLOSED",
-            "name": "won't fix"
-        },
-        {
-            "color": "#0052cc",
-            "description": "Hide template from public",
-            "name": "preview"
-        },
-        {
             "color": "#FDAF21",
             "description": "A sponsor is associated with this issue",
             "name": "VIP"
@@ -166,14 +171,64 @@
             "name": "website"
         },
         {
-            "color": "#D807C2",
-            "description": "A collection of epics",
-            "name": "SAGA"
+            "color": "#D4C5F9",
+            "description": "STATUS: CLOSED",
+            "name": "won't fix"
+        },
+        {
+            "color": "#0052cc",
+            "description": "In conjunction with a 'release' tag, marks this PR as responsible for a preview release",
+            "name": "PREVIEW"
         },
         {
             "color": "#5319E7",
             "description": "New Issue",
             "name": "NEW"
+        },
+        {
+            "color": "#ffffff",
+            "description": "A bot was responsible for raising this issue",
+            "name": "BOT"
+        },
+        {
+            "color": "#1D76DB",
+            "description": "Low priority issue not being addressed anytime in the near future",
+            "name": "ICEBOX"
+        },
+        {
+            "color": "#D93F0B",
+            "description": "Issue ready to be worked on",
+            "name": "BACKLOG"
+        },
+        {
+            "color": "#FFFF00",
+            "description": "Issue ready to be worked on",
+            "name": "SPRINT"
+        },
+        {
+            "color": "#ffffff",
+            "description": "A bot was responsible for raising this issue",
+            "name": "BOT"
+        },
+        {
+            "color": "#ffffff",
+            "description": "A bot was responsible for raising this issue",
+            "name": "CLOSED"
+        },
+        {
+            "color": "#6b2296",
+            "description": "Mend: Configuration Error",
+            "name": "MEND: CONFIG"
+        },
+        {
+            "color": "#d1260f",
+            "description": "Mend: Security Fix",
+            "name": "MEND: FIX"
+        },
+        {
+            "color": "#d1260f",
+            "description": "Mend: Security Vulnerability Detected",
+            "name": "MEND: VULNERABILITY"
         }
     ]
 }
